@@ -4,10 +4,11 @@ import { useState, useEffect } from 'react'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from '@solana/web3.js'
 
+
 // You may need to adjust this URL based on your Solana network configuration
 const connection = new Connection('https://api.devnet-beta.solana.com')
 
-export default function SolanaLendingPlatform() {
+export default function QuantaLendingPlatform() {
   const { publicKey, connect } = useWallet()
   const [isWalletConnected, setIsWalletConnected] = useState(false)
   const [isKycSubmitted, setIsKycSubmitted] = useState(false)
