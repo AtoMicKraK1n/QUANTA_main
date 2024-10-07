@@ -4,14 +4,14 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-quanta_lending = "H8vZG9eX7iiGQ1mpoCUBSDgd7cyyX23JkfGXvK22sUzu"
+[programs.devnet]
+quanta_lending = "EfdvNWsnXtmHdW95Xju1EspxowpTUCZuakQdVUCN8XTs"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

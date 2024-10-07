@@ -9,7 +9,8 @@ export default function KycForm({ onSubmit }: KycFormProps) {
     fullName: '',
     email: '',
     dateOfBirth: '',
-    aadhaar: ''
+    aadhaar: '',
+    PanCard: ''
   })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -61,13 +62,25 @@ export default function KycForm({ onSubmit }: KycFormProps) {
         />
       </div>
       <div>
-        <label htmlFor="aadhaar" className="block text-sm font-medium text-gray-700 mb-1">Aadhaar</label>
+        <label htmlFor="aadhaar" className="block text-sm font-medium text-gray-700 mb-1">Aadhaar Number</label>
         <input
           id="aadhaar"
           name="aadhaar"
           type="text"
           required
           value={formData.aadhaar}
+          onChange={handleChange}
+          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <label htmlFor="PanCard" className="block text-sm font-medium text-gray-700 mb-1">Pan Card Number</label>
+        <input
+          id="PanCard"
+          name="PanCard"
+          type="text"
+          required
+          value={formData.PanCard}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />

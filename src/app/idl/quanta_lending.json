@@ -27,7 +27,7 @@
       "name": "lend",
       "accounts": [
         {
-          "name": "lender",
+          "name": "Lender",
           "isMut": true,
           "isSigner": false
         },
@@ -48,7 +48,7 @@
       "name": "borrow",
       "accounts": [
         {
-          "name": "borrower",
+          "name": "Borrower",
           "isMut": true,
           "isSigner": false
         },

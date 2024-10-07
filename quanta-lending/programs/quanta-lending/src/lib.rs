@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("7bFtm6sjKSghBzwgjwtK6d29oVCdoHwB5N6kFSYxcN1r");
+declare_id!("EfdvNWsnXtmHdW95Xju1EspxowpTUCZuakQdVUCN8XTs");
 
 #[account]
 pub struct PlatformState {
