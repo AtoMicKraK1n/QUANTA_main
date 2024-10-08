@@ -30,4 +30,4 @@ To be really f**** honest I really want to build something that actually help us
 
 - **Twitter**: [QUANTA X](https://x.com/QUANTA_sol)
 
-- **Website**: [QUANTA](quanta-main.vercel.app)
+- **Website**: quanta-main.vercel.app
