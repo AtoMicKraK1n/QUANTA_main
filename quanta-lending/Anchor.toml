@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-quanta_lending = "EfdvNWsnXtmHdW95Xju1EspxowpTUCZuakQdVUCN8XTs"
+quanta_lending = "FdsGujaYhcNzrfVSuubfYuSNd5e69yCu6faQpAHsjaXY"
 
 [registry]
 url = "https://api.apr.dev"

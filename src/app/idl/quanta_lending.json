@@ -3,7 +3,7 @@
   "name": "quanta_lending",
   "instructions": [
     {
-      "name": "initialize",
+      "name": "initializeLender",
       "accounts": [
         {
           "name": "platformState",

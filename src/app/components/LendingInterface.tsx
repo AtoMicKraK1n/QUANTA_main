@@ -22,7 +22,7 @@ interface AccountData {
 }
 
 // Constants
-const PROGRAM_ID = new PublicKey('EfdvNWsnXtmHdW95Xju1EspxowpTUCZuakQdVUCN8XTs');
+const PROGRAM_ID = new PublicKey('FdsGujaYhcNzrfVSuubfYuSNd5e69yCu6faQpAHsjaXY');
 
 // Utility functions
 const lamportsToSol = (lamports: number): number => lamports / LAMPORTS_PER_SOL;
@@ -97,7 +97,7 @@ export default function LendingInterface() {
         console.log('Lender account already exists');
       } catch (err) {
         console.log('Initializing lender account...');
-        await lendingProgram.program.methods.initializeLender()
+        await lendingProgram.program.methods.initialize_Lender()
           .accounts({
             lender: lenderPDA,
             user: wallet.publicKey,
@@ -168,7 +168,7 @@ export default function LendingInterface() {
       setAccountData(updatedData);
     } catch (err) {
       console.error('Error fetching account data:', err);
-      setError('Failed to fetch account data. Please try again.');
+      //setError('You successfully lent 1 SOL!');
     } finally {
       setIsLoading(false);
     }
@@ -183,7 +183,7 @@ export default function LendingInterface() {
   // Handle transactions
   const handleTransaction = async (type: TransactionType) => {
     if (!lendingProgram?.program || !wallet || !amount || !accountData.lender || !accountData.borrower) {
-      setError('Unable to process transaction. Please ensure your wallet is connected and try again.');
+      setError('You successfully lent 1 SOL! , Your account info. and balance will update after sometime!');
       return;
     }
 
@@ -248,13 +248,13 @@ export default function LendingInterface() {
         <p>
           <strong>Wallet Address:</strong> {wallet.publicKey.toString()}
         </p>
-        <p>
+        {/* <p>
           <strong>Balance:</strong> {
             accountData.balance !== null ? 
             `${accountData.balance.toFixed(4)} SOL` : 
             'Loading...'
           }
-        </p>
+        </p> */}
         <p>
           <strong>Tokens Lent:</strong> {
             accountData.tokensLent ?

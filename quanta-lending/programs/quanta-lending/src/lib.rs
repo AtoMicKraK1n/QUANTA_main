@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("EfdvNWsnXtmHdW95Xju1EspxowpTUCZuakQdVUCN8XTs");
+declare_id!("FdsGujaYhcNzrfVSuubfYuSNd5e69yCu6faQpAHsjaXY");
 
 #[account]
 pub struct PlatformState {
@@ -54,7 +54,7 @@ pub struct Repay<'info> {
 pub mod quanta_lending {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+    pub fn initialize_lender(ctx: Context<Initialize>) -> Result<()> {
         let platform_state = &mut ctx.accounts.platform_state;
         platform_state.total_lenders = 0;
         platform_state.total_borrowers = 0;
