@@ -28,7 +28,6 @@ To be really f**** honest I really want to build something that actually help us
 
 # Connect to QUANTA
 
-X - x.com/QUANTA_sol
+- **Twitter**: [QUANTA X](https://x.com/QUANTA_sol)
 
-Website - quanta-main.vercel.app
-
+- **Website**: [QUANTA](quanta-main.vercel.app)
