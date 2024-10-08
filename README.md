@@ -1,37 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QUANTA
 
-## Getting Started
+QUANTA is a decentralized peer-to-peer (P2P) lending platform built on the Solana blockchain. Its core mission is to revolutionize decentralized finance (DeFi) by prioritizing user security, trustworthiness, and accessibility. By integrating advanced security mechanisms such as KYC (Know Your Customer), CIBIL score verification, and on-chain user assessment, QUANTA ensures a safer and more transparent lending and borrowing experience. The platform introduces its native token, QUANTA, which will serve as the primary currency for lending, borrowing, and repayment transactions.
 
-First, run the development server:
+# Why SOLANA?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+We picked Solana for QUANTA because it's super fast, has super low fees, and can handle a ton of transactions without breaking a sweat. Plus, it’s perfect for adding cool security features like KYC and on-chain assessments without slowing things down. Ideal for a smooth, secure platform!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How do we stand out from other lending platforms?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+First of all in crypto, there are so many lending platforms but we don't have peer-to-peer lending platforms. What I meant to say is we have those primitive lending platform and they are performing really good but what we wanted to make is a legit peer-to-peer lending platform where a LENDER chooses who they want to lend, a BORROWER chooses how they want to borrow.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Why are we really doing this?
 
-## Learn More
+We want to make crypto accessible to everyone who uses a basic android. There are too many lending platforms but there threshold for lening and borrowing is not really possible for everyone to lend/borrow. There is one more thing which is trust issues with lending platform so we have done **things** to achieve that trust:-
 
-To learn more about Next.js, take a look at the following resources:
+1. KYC
+2. CIBIL score
+3. On-chain assessment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# What's the plane for future!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To be really f**** honest I really want to build something that actually help users and the ecosystem, not to just impress some 5% of the audience. So, what we will do in future:-
 
-## Deploy on Vercel
+1. Start evaluating our programs again and making them more secure!
+2. Launching our own stable coin which will help users to handle liqudity to some extent!
+3. And who knows what next idea strike so yeaaaaa..........
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Connect to QUANTA
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# QUANTA_main" 
+X - x.com/QUANTA_sol
+
+Website - quanta-main.vercel.app
+
