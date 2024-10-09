@@ -12,13 +12,13 @@ First of all in crypto, there are so many lending platforms but we don't have pe
 
 # Why are we really doing this?
 
-We want to make crypto accessible to everyone who uses a basic android. There are too many lending platforms but there threshold for lening and borrowing is not really possible for everyone to lend/borrow. There is one more thing which is trust issues with lending platform so we have done **things** to achieve that trust:-
+We want to make crypto accessible to everyone who uses a basic android. There are too many lending platforms but there threshold for lending and borrowing is not really possible for everyone to lend/borrow. There is one more thing which is trust issues with lending platform so we have done **things** to achieve that trust:-
 
 1. KYC
 2. CIBIL score
 3. On-chain assessment
 
-# What's the plane for future!
+# What's the plan for future!
 
 To be really f**** honest I really want to build something that actually help users and the ecosystem, not to just impress some 5% of the audience. So, what we will do in future:-
 
